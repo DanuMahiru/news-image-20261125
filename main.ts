@@ -13,8 +13,9 @@ import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+const entryFile = 'entry.png';
 mkdirSync(outDir, { recursive: true });
 writeFileSync(
-  join(outDir, 'entry.png'),
-  readFileSync(join(here, 'entry.png')),
+  join(outDir, entryFile),
+  readFileSync(join(here, entryFile)),
 );
