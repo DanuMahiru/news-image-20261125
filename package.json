@@ -1,0 +1,1 @@
+{"description":"The Wednesday Globe — one image summing up the world news of Wednesday 25 November 2026, for make.fun","license":"MIT","main":"main.ts","name":"news-image-20261125","private":true,"scripts":{"render":"python3 render.py","start":"node main.ts"},"type":"module","version":"1.0.0"}
